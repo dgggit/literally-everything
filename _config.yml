@@ -25,7 +25,7 @@ version: 1.0.0
 # About/contact
 author:
   name: Jinho Ko
-  description: Jinho Ko's Tech Blog
+  description: <strong>Jinho Ko</strong>'s Tech Blog
 
 # Navigation (2nd level links supported)
 nav:
@@ -37,7 +37,7 @@ nav:
     - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
-  Personal Homepage: 
+  Homepage: 
     - 'http://dgggit.github.io/'
 
 # Where are tags and categories displayed
@@ -45,8 +45,8 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 mainpage:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: from the movie <strong>Midnight in Paris(2011)</strong>
+  image: /public/img/quote.jpg
+  caption: from the movie <strong>Midnight in Paris (2011)</strong>
 
 # Puglins
 mathjax: true # whether support mathjax
