@@ -1,8 +1,7 @@
 ---
 layout: post
 title: English Title Test
-Category: etc
-
+categories: [ etc ]
 ---
 
 

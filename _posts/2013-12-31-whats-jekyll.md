@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coffee test
-Category: etc
+categories: [ etc ]
 ---
 
 <h3>Coooooffeeeeeee</h3>
