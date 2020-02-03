@@ -31,8 +31,8 @@ author:
 nav:
   Home:           
     - '/'
-  Contents:           
-    - '/blog/'
+  Blog:           
+    - '/Blog/'
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
   About:          
