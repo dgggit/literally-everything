@@ -1,6 +1,9 @@
 /* Colors 
  * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
+
+ @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
 $red:      #ac4142;
 $orange:   #d28445;
 $yellow:   #f4bf75;
@@ -29,6 +32,15 @@ $reverse-layout: false;
 $overlay-sidebar: true;
 
 /* Font stack */
+/* original fonts blocked */
+/*
 $font-serif: "PT Serif", Georgia, "Times New Roman", serif;
 $font-sans: "PT Sans", Helvetica, Arial, sans-serif;
+$font-font-awesome: FontAwesome;
+*/
+
+$font-serif: -apple-system, BlinkMacSystemFont, "Nanum Gothic", "Roboto", "Segoe UI",
+"Helvetica Neue", "Lucida Grande", Arial;
+$font-sans: -apple-system, BlinkMacSystemFont, "Nanum Gothic", "Roboto", "Segoe UI",
+"Helvetica Neue", "Lucida Grande", Arial;
 $font-font-awesome: FontAwesome;
