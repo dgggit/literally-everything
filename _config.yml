@@ -49,6 +49,12 @@ nav:
   Homepage: 
     - 'http://dgggit.github.io/'
 
+# link to post
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name
+
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
