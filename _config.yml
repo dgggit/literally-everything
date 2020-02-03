@@ -32,7 +32,7 @@ nav:
   Home:           
     - '/'
   Blog:           
-    - '/Blog/'
+    - '/blog/'
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
   About:          
