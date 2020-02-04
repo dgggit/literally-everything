@@ -49,6 +49,7 @@ nav:
     - { Numerical Analysis: '/contents/numanalysis/'}
     - { Etc: '/contents/etc/'}
   Others:
+    - '/others/'
     - { Paper Review: '/others/paperreview/'}
     - { Great Sites: '/others/greatsites/'}
     - { Personal Interests: '/others/personalinterests/'}

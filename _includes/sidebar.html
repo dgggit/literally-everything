@@ -32,9 +32,15 @@
       {% assign sub_len = nav[1] | size | minus: 1 %}
 
       <span class="{% if sub_len > 0 %}foldable{% endif %}">
+        {% if url != '{{ baseurl }}/others/' %}
         <a class="sidebar-nav-item {% if page.url == nav[1][0] %}active{% endif %}" href="{{ url }}">
           {{ nav[0] }}
         </a>
+        {% else %}
+        <a class="sidebar-nav-item {% if page.url == nav[1][0] %}active{% endif %}">
+          {{ nav[0] }}
+        </a>
+        {% endif %}
 
         {% for i in (1..sub_len) %}
           {% for sub_nav in nav[1][i] %}
