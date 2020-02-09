@@ -31,7 +31,10 @@
 
       {% assign sub_len = nav[1] | size | minus: 1 %}
 
-
+      <!--
+        a {{ url | jsonify | escape }}
+        b {{ site.othersurl | jsonify | escape }}
+      -->
       <span class="{% if sub_len > 0 %}foldable{% endif %}">
         {% if url == {{ site.othersurl }} %}
         <a class="sidebar-nav-item {% if page.url == nav[1][0] %}active{% endif %}">
