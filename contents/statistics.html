@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Deep Learning + AI
+title: Statistics
 ---
 
 <div class="explaination-expo">
@@ -9,7 +9,7 @@ title: Deep Learning + AI
 <div class="tags-expo-section">
     {% for tag in site.categories %}
     {% if tag == page.title %}
-    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+    <h2>Posts</h2>
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
