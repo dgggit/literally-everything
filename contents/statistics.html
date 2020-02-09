@@ -8,9 +8,9 @@ title: Statistics
 </div>
 <div class="tags-expo-section">
     {% for tag in site.categories %}
-          <!-- {{ tag | jsonify }}-->
-        <!-- {{ page.title | jsonify }}-->
-        {% if tag == page.title %}
+    <!-- {{ tag | jsonify }} -->
+    <!-- {{ page.title | jsonify }} -->
+    {% if tag == page.title %}
         <h2>Posts</h2>
         <ul class="tags-expo-posts">
         {% for post in tag[1] %}
@@ -22,7 +22,7 @@ title: Statistics
         </a>
         {% endfor %}
         </ul>
-        {% endif %}
+    {% endif %}
     {% endfor %}
   </div>
 </div>
