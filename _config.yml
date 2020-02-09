@@ -52,7 +52,7 @@ nav:
   Others:
     - '/others/'
     - { Paper Review: '/others/paperreview/'}
-    - { Great Sites: '/others/greatsites/'}
+    - { Great Materials: '/others/greatmaterials/'}
     - { Personal Interests: '/others/personalinterests/'}
   Tags: 
     - '/contents/tags/' 
