@@ -2,27 +2,28 @@
 layout: page
 title: Statistics
 ---
-
-<div class="explaination-expo">
-    <p>statistics description here</p>
-</div>
-<div class="tags-expo-section">
-    {% for tag in site.categories %}
-    <!-- {{ tag[0] }} -->
-    <!-- {{ page.title }} -->
-    {% if tag[0] == page.title %}
-        <h2>Posts</h2>
-        <ul class="tags-expo-posts">
-        {% for post in tag[1] %}
-            <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-        <li>
-            {{ post.title }}
-        <small class="post-date">{{ post.date | date_to_string }}</small>
-        </li>
-        </a>
+<div class="tags-expo">
+    <div class="explaination-expo">
+        <p>statistics description here</p>
+    </div>
+    <hr/>
+    <div class="tags-expo-section">
+        {% for tag in site.categories %}
+        <!-- {{ tag[0] }} -->
+        <!-- {{ page.title }} -->
+        {% if tag[0] == page.title %}
+            <h2>Posts</h2>
+            <ul class="tags-expo-posts">
+            {% for post in tag[1] %}
+                <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+            <li>
+                {{ post.title }}
+            <small class="post-date">{{ post.date | date_to_string }}</small>
+            </li>
+            </a>
+            {% endfor %}
+            </ul>
+        {% endif %}
         {% endfor %}
-        </ul>
-    {% endif %}
-    {% endfor %}
-  </div>
+    </div>
 </div>
