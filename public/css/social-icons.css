@@ -1,4 +1,4 @@
-.soc-icon {
+.fa {
     padding: 6px;
     font-size: 17px;
     width: 17px;
@@ -7,122 +7,122 @@
     border-radius: 30%;
   }
   
-  .soc-icon:hover {
+  .fa:hover {
       opacity: 0.7;
   }
   
-  .soc-icon-soc-iconcebook {
+  .fa-facebook {
     background: #3B5998;
     color: white;
   }
   
-  .soc-icon-twitter {
+  .fa-twitter {
     background: #55ACEE;
     color: white;
   }
 
-  .soc-icon-google {
+  .fa-google {
     background: #dd4b39;
     color: white;
   }
 
-  .soc-icon-envelope {
+  .fa-envelope {
     background: #dd4b39;
     color: white;
   }
   
-  .soc-icon-linkedin {
+  .fa-linkedin {
     background: #007bb5;
     color: white;
   }
   
-  .soc-icon-youtube {
+  .fa-youtube {
     background: #bb0000;
     color: white;
   }
   
-  .soc-icon-instagram {
+  .fa-instagram {
     background: #125688;
     color: white;
   }
   
-  .soc-icon-pinterest {
+  .fa-pinterest {
     background: #cb2027;
     color: white;
   }
   
-  .soc-icon-snapchat-ghost {
+  .fa-snapchat-ghost {
     background: #fffc00;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
   
-  .soc-icon-skype {
+  .fa-skype {
     background: #00aff0;
     color: white;
   }
   
-  .soc-icon-android {
+  .fa-android {
     background: #a4c639;
     color: white;
   }
   
-  .soc-icon-dribbble {
+  .fa-dribbble {
     background: #ea4c89;
     color: white;
   }
   
-  .soc-icon-vimeo {
+  .fa-vimeo {
     background: #45bbff;
     color: white;
   }
   
-  .soc-icon-tumblr {
+  .fa-tumblr {
     background: #2c4762;
     color: white;
   }
   
-  .soc-icon-vine {
+  .fa-vine {
     background: #00b489;
     color: white;
   }
   
-  .soc-icon-foursquare {
+  .fa-foursquare {
     background: #45bbff;
     color: white;
   }
   
-  .soc-icon-stumbleupon {
+  .fa-stumbleupon {
     background: #eb4924;
     color: white;
   }
   
-  .soc-icon-flickr {
+  .fa-flickr {
     background: #f40083;
     color: white;
   }
   
-  .soc-icon-yahoo {
+  .fa-yahoo {
     background: #430297;
     color: white;
   }
   
-  .soc-icon-soundcloud {
+  .fa-soundcloud {
     background: #ff5500;
     color: white;
   }
   
-  .soc-icon-reddit {
+  .fa-reddit {
     background: #ff5700;
     color: white;
   }
   
-  .soc-icon-rss {
+  .fa-rss {
     background: #ff6600;
     color: white;
   }
 
-  .soc-icon-github {
+  .fa-github {
     background: #000000;
     color: white;
   }
