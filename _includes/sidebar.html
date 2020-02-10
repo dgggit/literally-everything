@@ -52,22 +52,25 @@
               {% assign sub_url = sub_nav[1] | prepend: site.baseurl %}
             {% endif %}
 
-            <div style="display:inline-block; width: 90%;">
-              <a class="sidebar-nav-item sidebar-nav-item-sub {% if page.url == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">
-                {{ sub_nav[0] }}
-              </a>
+            <div class="sidebar-nav-item sidebar-nav-item-sub {% if page.url == sub_nav[1] %}active{% endif %}">
+              <div style="display:inline-block; width: 90%;">
+                <a href="{{ sub_url }}">
+                  {{ sub_nav[0] }}
+                </a>
+              </div>
+              <div style="display: inline;">
+                {% assign cnt_posts = 0 %}
+                {% for tag_ in site.categories %}
+                  {% if tag_[0] == sub_nav[0] %}
+                    {% assign cnt_posts = tag_[1].size %}
+                  {% endif %}
+                {% endfor %}
+                <span style="color: white; font-size: 85%;line-height: 85%;">
+                  {{ cnt_posts }}
+                </span>
+              </div>
             </div>
-            <div style="display: inline;">
-              {% assign cnt_posts = 0 %}
-              {% for tag_ in site.categories %}
-                {% if tag_[0] == sub_nav[0] %}
-                  {% assign cnt_posts = tag_[1].size %}
-                {% endif %}
-              {% endfor %}
-              <span style="color: white; font-size: 85%;line-height: 85%;">
-                {{ cnt_posts }}
-              </span>
-            </div>
+            
 
           {% endfor %}
         {% endfor %}
