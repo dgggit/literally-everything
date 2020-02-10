@@ -52,6 +52,15 @@
             {% endif %}
               <a class="sidebar-nav-item sidebar-nav-item-sub {% if page.url == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">
                 {{ sub_nav[0] }}
+                <span>
+                  {% assign cnt = 0 %}
+                  {% for tag_ in site.categories %}
+                    {% if tag_[0] == sub_nav[0] %}
+                      {% cnt = tag_[1].size %}
+                    {% endif %}
+                  {% endfor %}
+                  {{cnt}}  
+                </span>
               </a>
           {% endfor %}
         {% endfor %}
