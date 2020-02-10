@@ -112,7 +112,12 @@
     color: white;
   }
   
-  .fa-reddit .fa-home {
+  .fa-reddit  {
+    background: #ff5700;
+    color: white;
+  }
+
+  .fa-home {
     background: #ff5700;
     color: white;
   }
