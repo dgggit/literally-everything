@@ -57,14 +57,14 @@
                 {{ sub_nav[0] }}
               </a>
             </div>
-            <div style="display: inline; text-align: right; color: white; ">
+            <div style="display: inline;">
               {% assign cnt_posts = 0 %}
               {% for tag_ in site.categories %}
                 {% if tag_[0] == sub_nav[0] %}
                   {% assign cnt_posts = tag_[1].size %}
                 {% endif %}
               {% endfor %}
-              <strong>{{ cnt_posts }}</strong>
+              <strong style="color: white;">{{ cnt_posts }}</strong>
             </div>
 
           {% endfor %}
