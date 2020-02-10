@@ -40,10 +40,10 @@ nav:
   Contents:
     - '/contents/'
     - { Statistics: '/contents/statistics/'}
-    - { Computational Stats.: '/contents/compstats/'}
+    - { Computational Stats: '/contents/compstats/'}
     - { Bayesian + ML: '/contents/bayesianML/'}
     - { Deep Learning + AI: '/contents/DL/'}
-    - { NLP: '/contents/NLP'}
+    - { NLP: '/contents/NLP/'}
     - { Big Data Mining: '/contents/bigdatamining/'}
     - { System Programming: '/contents/systemprog/'}
     - { Python Dev: '/contents/pythondev/'}
