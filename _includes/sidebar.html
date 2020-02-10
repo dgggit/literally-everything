@@ -51,7 +51,7 @@
             {% if sub_is_relative == '/' %}
               {% assign sub_url = sub_nav[1] | prepend: site.baseurl %}
             {% endif %}
-              <table style="width: 100%;">
+              <table cellspacing="0" cellpadding="0" border="0" style="width: 100%;background-color: rgba(0, 0, 0, 1.0);">
                 <tr>
                   <td>
                     <a class="sidebar-nav-item sidebar-nav-item-sub {% if page.url == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">
