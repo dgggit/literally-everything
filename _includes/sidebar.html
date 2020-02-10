@@ -52,15 +52,23 @@
             {% endif %}
               <a class="sidebar-nav-item sidebar-nav-item-sub {% if page.url == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">
                 {{ sub_nav[0] }}
-                <span>
-                  {% assign cnt_posts = 0 %}
-                  {% for tag_ in site.categories %}
-                    {% if tag_[0] == sub_nav[0] %}
-                      {% assign cnt_posts = tag_[1].size %}
-                    {% endif %}
-                  {% endfor %}
-                  {{ cnt_posts }}  
-                </span>
+                <style type="text/css">
+                    .post-count{
+                      text-align:right ;
+                    }
+                </style>
+                <div class="post-count">
+                  <span>
+                    {% assign cnt_posts = 0 %}
+                    {% for tag_ in site.categories %}
+                      {% if tag_[0] == sub_nav[0] %}
+                        {% assign cnt_posts = tag_[1].size %}
+                      {% endif %}
+                    {% endfor %}
+                    <strong>{{ cnt_posts }}</strong>
+                  </span>
+                </div>
+                
               </a>
           {% endfor %}
         {% endfor %}
