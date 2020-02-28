@@ -68,7 +68,7 @@ collections:
     permalink: /:collection/:name
 
 # Where are tags and categories displayed
-tag_page: '/contents/tags/'
+tag_page: '/tags/'
 category_page: '/contents/categories/'
 
 mainpage:
