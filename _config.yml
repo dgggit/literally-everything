@@ -56,7 +56,7 @@ nav:
     - { Great Materials: '/others/greatmaterials/'}
     - { Personal Interests: '/others/personalinterests/'}
   Tags: 
-    - '/contents/tags/' 
+    - '/tags/' 
   About:          
     - '/about/'
 
