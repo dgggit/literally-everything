@@ -4,7 +4,7 @@ image: /public/profile.jpeg
 tagline: 'Tech Blog'
 baseurl: "/literally-everything"
 othersurl: '/literally-everything/others/'
-url: http://dgggit.github.io/literally-everything
+url: http://dgggit.github.io/literally-everything/
 logo: '/public/logo.png'
 
 # Site configurations
