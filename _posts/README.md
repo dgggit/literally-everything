@@ -8,5 +8,5 @@
 7. tag는 띄어쓰기 없이, 단어 구분은 대문자로
 
 - Good markdown writing
-  1. https://simhyejin.github.io/2016/06/30/Markdown-syntax/
-  2. 
+  1. (kramdown) https://kramdown.gettalong.org/quickref.html
+  2. https://simhyejin.github.io/2016/06/30/Markdown-syntax/
